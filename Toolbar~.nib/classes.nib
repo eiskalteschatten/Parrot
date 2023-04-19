@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = Toolbar; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {urlBar = NSTextField; }; 
+            SUPERCLASS = NSWindow; 
+        }, 
+        {CLASS = ToolbarController; LANGUAGE = ObjC; SUPERCLASS = NSWindowController; }
+    ); 
+    IBVersion = 1; 
+}

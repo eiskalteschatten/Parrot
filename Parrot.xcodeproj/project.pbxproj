@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
+		8D15AC2D0486D014006FF6A4 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */; };
+		8D15AC2E0486D014006FF6A4 /* MyDocument.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B4FDCFA73011CA2CEA /* MyDocument.nib */; };
+		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
+		8D15AC310486D014006FF6A4 /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+		933767D3091614C10024D457 /* Toolbar.h in Resources */ = {isa = PBXBuildFile; fileRef = 933767D1091614C10024D457 /* Toolbar.h */; };
+		933767D4091614C10024D457 /* Toolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 933767D2091614C10024D457 /* Toolbar.m */; };
+		9337684F0916242D0024D457 /* SignOn.h in Resources */ = {isa = PBXBuildFile; fileRef = 9337684D0916242D0024D457 /* SignOn.h */; };
+		933768500916242D0024D457 /* SignOn.m in Sources */ = {isa = PBXBuildFile; fileRef = 9337684E0916242D0024D457 /* SignOn.m */; };
+		933768C70916289A0024D457 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933768C60916289A0024D457 /* WebKit.framework */; };
+		933768C9091628A00024D457 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933768C8091628A00024D457 /* AddressBook.framework */; };
+		933768EA091628DD0024D457 /* CSignOn.h in Resources */ = {isa = PBXBuildFile; fileRef = 933768E8091628DD0024D457 /* CSignOn.h */; };
+		933768EB091628DD0024D457 /* CSignOn.m in Sources */ = {isa = PBXBuildFile; fileRef = 933768E9091628DD0024D457 /* CSignOn.m */; };
+		93376A5C091634C10024D457 /* HomeWindow.h in Resources */ = {isa = PBXBuildFile; fileRef = 93376A5A091634C10024D457 /* HomeWindow.h */; };
+		93376A5D091634C10024D457 /* HomeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 93376A5B091634C10024D457 /* HomeWindow.m */; };
+		938CEBAC0A8CF76B005555E8 /* Email.nib in Resources */ = {isa = PBXBuildFile; fileRef = 938CEBAA0A8CF76B005555E8 /* Email.nib */; };
+		93926833091BB6A000E4A55F /* NotePad.h in Resources */ = {isa = PBXBuildFile; fileRef = 93926831091BB6A000E4A55F /* NotePad.h */; };
+		93926834091BB6A000E4A55F /* NotePad.m in Sources */ = {isa = PBXBuildFile; fileRef = 93926832091BB6A000E4A55F /* NotePad.m */; };
+		939E2270091902E8001794E2 /* parrot404.html in Resources */ = {isa = PBXBuildFile; fileRef = 939E226F091902E8001794E2 /* parrot404.html */; };
+		939E237309190E61001794E2 /* MyDocumentWindow.h in Resources */ = {isa = PBXBuildFile; fileRef = 939E237109190E61001794E2 /* MyDocumentWindow.h */; };
+		939E237409190E61001794E2 /* MyDocumentWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 939E237209190E61001794E2 /* MyDocumentWindow.m */; };
+		93A5EB9D0A8D70AB00E532C7 /* Scrap in Resources */ = {isa = PBXBuildFile; fileRef = 93A5EB9C0A8D70AB00E532C7 /* Scrap */; };
+		93C73CA50A8BD2A100095C19 /* Messenger.nib in Resources */ = {isa = PBXBuildFile; fileRef = 93C73CA30A8BD2A100095C19 /* Messenger.nib */; };
+		93D7D6A809189DFF009566F3 /* Toolbar BG.tif in Resources */ = {isa = PBXBuildFile; fileRef = 93D7D6A709189DFF009566F3 /* Toolbar BG.tif */; };
+		93E7F06B091BCAA000BEC58E /* AppleScriptKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E7F06A091BCAA000BEC58E /* AppleScriptKit.framework */; };
+		93F80D9E091CC8A900208FD6 /* back button.tif in Resources */ = {isa = PBXBuildFile; fileRef = 93F80D9D091CC8A900208FD6 /* back button.tif */; };
+		93F80ED4091CD59100208FD6 /* forward button.tif in Resources */ = {isa = PBXBuildFile; fileRef = 93F80ED3091CD59100208FD6 /* forward button.tif */; };
+		93F80F17091CD9BB00208FD6 /* stop button.tif in Resources */ = {isa = PBXBuildFile; fileRef = 93F80F16091CD9BB00208FD6 /* stop button.tif */; };
+		93F80F2E091CDE4300208FD6 /* reload button.tif in Resources */ = {isa = PBXBuildFile; fileRef = 93F80F2D091CDE4300208FD6 /* reload button.tif */; };
+		93F81110091CFEAE00208FD6 /* go button.tif in Resources */ = {isa = PBXBuildFile; fileRef = 93F8110F091CFEAE00208FD6 /* go button.tif */; };
+		93FD06FA091C87100094AFF9 /* Toolbar.nib in Resources */ = {isa = PBXBuildFile; fileRef = 93FD06F9091C87100094AFF9 /* Toolbar.nib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
+		2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4B5FDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MyDocument.nib; sourceTree = "<group>"; };
+		2A37F4B7FDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32DBCF750370BD2300C91783 /* Parrot_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parrot_Prefix.pch; sourceTree = "<group>"; };
+		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D15AC370486D014006FF6A4 /* Parrot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parrot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		933767D1091614C10024D457 /* Toolbar.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Toolbar.h; sourceTree = "<group>"; };
+		933767D2091614C10024D457 /* Toolbar.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Toolbar.m; sourceTree = "<group>"; };
+		9337684D0916242D0024D457 /* SignOn.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SignOn.h; sourceTree = "<group>"; };
+		9337684E0916242D0024D457 /* SignOn.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SignOn.m; sourceTree = "<group>"; };
+		933768C60916289A0024D457 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		933768C8091628A00024D457 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = /System/Library/Frameworks/AddressBook.framework; sourceTree = "<absolute>"; };
+		933768E8091628DD0024D457 /* CSignOn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSignOn.h; sourceTree = "<group>"; };
+		933768E9091628DD0024D457 /* CSignOn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSignOn.m; sourceTree = "<group>"; };
+		93376A5A091634C10024D457 /* HomeWindow.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = HomeWindow.h; sourceTree = "<group>"; };
+		93376A5B091634C10024D457 /* HomeWindow.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = HomeWindow.m; sourceTree = "<group>"; };
+		938CEBAB0A8CF76B005555E8 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Email.nib; sourceTree = "<group>"; };
+		93926831091BB6A000E4A55F /* NotePad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotePad.h; sourceTree = "<group>"; };
+		93926832091BB6A000E4A55F /* NotePad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotePad.m; sourceTree = "<group>"; };
+		939E226F091902E8001794E2 /* parrot404.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = parrot404.html; sourceTree = "<group>"; };
+		939E237109190E61001794E2 /* MyDocumentWindow.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = MyDocumentWindow.h; sourceTree = "<group>"; };
+		939E237209190E61001794E2 /* MyDocumentWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDocumentWindow.m; sourceTree = "<group>"; };
+		93A5EB9C0A8D70AB00E532C7 /* Scrap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Scrap; sourceTree = "<group>"; };
+		93C73CA40A8BD2A100095C19 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Messenger.nib; sourceTree = "<group>"; };
+		93D7D6A709189DFF009566F3 /* Toolbar BG.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Toolbar BG.tif"; sourceTree = "<group>"; };
+		93E7F06A091BCAA000BEC58E /* AppleScriptKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptKit.framework; path = /System/Library/Frameworks/AppleScriptKit.framework; sourceTree = "<absolute>"; };
+		93F80D9D091CC8A900208FD6 /* back button.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "back button.tif"; sourceTree = "<group>"; };
+		93F80ED3091CD59100208FD6 /* forward button.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "forward button.tif"; sourceTree = "<group>"; };
+		93F80F16091CD9BB00208FD6 /* stop button.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "stop button.tif"; sourceTree = "<group>"; };
+		93F80F2D091CDE4300208FD6 /* reload button.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "reload button.tif"; sourceTree = "<group>"; };
+		93F8110F091CFEAE00208FD6 /* go button.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "go button.tif"; sourceTree = "<group>"; };
+		93FD0546091C6E410094AFF9 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Toolbar.nib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
+				933768C70916289A0024D457 /* WebKit.framework in Frameworks */,
+				933768C9091628A00024D457 /* AddressBook.framework in Frameworks */,
+				93E7F06B091BCAA000BEC58E /* AppleScriptKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93E7F06A091BCAA000BEC58E /* AppleScriptKit.framework */,
+				933768C8091628A00024D457 /* AddressBook.framework */,
+				933768C60916289A0024D457 /* WebKit.framework */,
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC370486D014006FF6A4 /* Parrot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* Parrot */ = {
+			isa = PBXGroup;
+			children = (
+				939E235F09190DC6001794E2 /* Later Versions */,
+				93376847091624070024D457 /* Window Classes */,
+				2A37F4ABFDCFA73011CA2CEA /* Classes */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+			);
+			name = Parrot;
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */,
+				2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF750370BD2300C91783 /* Parrot_Prefix.pch */,
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				93F80DDB091CCB2700208FD6 /* Images */,
+				939E2271091902F1001794E2 /* Error Pages */,
+				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
+				2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */,
+				2A37F4B4FDCFA73011CA2CEA /* MyDocument.nib */,
+				93FD06F9091C87100094AFF9 /* Toolbar.nib */,
+				8D15AC360486D014006FF6A4 /* Info.plist */,
+				93A5EB9C0A8D70AB00E532C7 /* Scrap */,
+				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
+				93C73CA30A8BD2A100095C19 /* Messenger.nib */,
+				938CEBAA0A8CF76B005555E8 /* Email.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93376847091624070024D457 /* Window Classes */ = {
+			isa = PBXGroup;
+			children = (
+				93926831091BB6A000E4A55F /* NotePad.h */,
+				93926832091BB6A000E4A55F /* NotePad.m */,
+				939E237109190E61001794E2 /* MyDocumentWindow.h */,
+				939E237209190E61001794E2 /* MyDocumentWindow.m */,
+				93376A5A091634C10024D457 /* HomeWindow.h */,
+				93376A5B091634C10024D457 /* HomeWindow.m */,
+				933767D1091614C10024D457 /* Toolbar.h */,
+				933767D2091614C10024D457 /* Toolbar.m */,
+			);
+			name = "Window Classes";
+			sourceTree = "<group>";
+		};
+		939E2271091902F1001794E2 /* Error Pages */ = {
+			isa = PBXGroup;
+			children = (
+				939E226F091902E8001794E2 /* parrot404.html */,
+			);
+			name = "Error Pages";
+			sourceTree = "<group>";
+		};
+		939E235F09190DC6001794E2 /* Later Versions */ = {
+			isa = PBXGroup;
+			children = (
+				9337684D0916242D0024D457 /* SignOn.h */,
+				9337684E0916242D0024D457 /* SignOn.m */,
+				933768E8091628DD0024D457 /* CSignOn.h */,
+				933768E9091628DD0024D457 /* CSignOn.m */,
+			);
+			name = "Later Versions";
+			sourceTree = "<group>";
+		};
+		93F80DDB091CCB2700208FD6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				93F8110F091CFEAE00208FD6 /* go button.tif */,
+				93F80F2D091CDE4300208FD6 /* reload button.tif */,
+				93F80F16091CD9BB00208FD6 /* stop button.tif */,
+				93F80ED3091CD59100208FD6 /* forward button.tif */,
+				93F80D9D091CC8A900208FD6 /* back button.tif */,
+				93D7D6A709189DFF009566F3 /* Toolbar BG.tif */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D15AC270486D014006FF6A4 /* Parrot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 938755610937FF43004CC7D1 /* Build configuration list for PBXNativeTarget "Parrot" */;
+			buildPhases = (
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Parrot;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Parrot;
+			productReference = 8D15AC370486D014006FF6A4 /* Parrot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 938755650937FF43004CC7D1 /* Build configuration list for PBXProject "Parrot" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* Parrot */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D15AC270486D014006FF6A4 /* Parrot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */,
+				8D15AC2D0486D014006FF6A4 /* MainMenu.nib in Resources */,
+				8D15AC2E0486D014006FF6A4 /* MyDocument.nib in Resources */,
+				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
+				933767D3091614C10024D457 /* Toolbar.h in Resources */,
+				9337684F0916242D0024D457 /* SignOn.h in Resources */,
+				933768EA091628DD0024D457 /* CSignOn.h in Resources */,
+				93376A5C091634C10024D457 /* HomeWindow.h in Resources */,
+				93D7D6A809189DFF009566F3 /* Toolbar BG.tif in Resources */,
+				939E2270091902E8001794E2 /* parrot404.html in Resources */,
+				939E237309190E61001794E2 /* MyDocumentWindow.h in Resources */,
+				93926833091BB6A000E4A55F /* NotePad.h in Resources */,
+				93FD06FA091C87100094AFF9 /* Toolbar.nib in Resources */,
+				93F80D9E091CC8A900208FD6 /* back button.tif in Resources */,
+				93F80ED4091CD59100208FD6 /* forward button.tif in Resources */,
+				93F80F17091CD9BB00208FD6 /* stop button.tif in Resources */,
+				93F80F2E091CDE4300208FD6 /* reload button.tif in Resources */,
+				93F81110091CFEAE00208FD6 /* go button.tif in Resources */,
+				93C73CA50A8BD2A100095C19 /* Messenger.nib in Resources */,
+				938CEBAC0A8CF76B005555E8 /* Email.nib in Resources */,
+				93A5EB9D0A8D70AB00E532C7 /* Scrap in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC310486D014006FF6A4 /* MyDocument.m in Sources */,
+				8D15AC320486D014006FF6A4 /* main.m in Sources */,
+				933767D4091614C10024D457 /* Toolbar.m in Sources */,
+				933768500916242D0024D457 /* SignOn.m in Sources */,
+				933768EB091628DD0024D457 /* CSignOn.m in Sources */,
+				93376A5D091634C10024D457 /* HomeWindow.m in Sources */,
+				939E237409190E61001794E2 /* MyDocumentWindow.m in Sources */,
+				93926834091BB6A000E4A55F /* NotePad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1660FE840EACC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2A37F4B4FDCFA73011CA2CEA /* MyDocument.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4B5FDCFA73011CA2CEA /* English */,
+			);
+			name = MyDocument.nib;
+			sourceTree = "<group>";
+		};
+		2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4B7FDCFA73011CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4BAFDCFA73011CA2CEA /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		938CEBAA0A8CF76B005555E8 /* Email.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				938CEBAB0A8CF76B005555E8 /* English */,
+			);
+			name = Email.nib;
+			sourceTree = "<group>";
+		};
+		93C73CA30A8BD2A100095C19 /* Messenger.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93C73CA40A8BD2A100095C19 /* English */,
+			);
+			name = Messenger.nib;
+			sourceTree = "<group>";
+		};
+		93FD06F9091C87100094AFF9 /* Toolbar.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93FD0546091C6E410094AFF9 /* English */,
+			);
+			name = Toolbar.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		938755620937FF43004CC7D1 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Parrot_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Parrot;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		938755630937FF43004CC7D1 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Parrot_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Parrot;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		938755640937FF43004CC7D1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Parrot_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Parrot;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		938755660937FF43004CC7D1 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		938755670937FF43004CC7D1 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		938755680937FF43004CC7D1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		938755610937FF43004CC7D1 /* Build configuration list for PBXNativeTarget "Parrot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				938755620937FF43004CC7D1 /* Development */,
+				938755630937FF43004CC7D1 /* Deployment */,
+				938755640937FF43004CC7D1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		938755650937FF43004CC7D1 /* Build configuration list for PBXProject "Parrot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				938755660937FF43004CC7D1 /* Development */,
+				938755670937FF43004CC7D1 /* Deployment */,
+				938755680937FF43004CC7D1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}

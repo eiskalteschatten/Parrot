@@ -1,0 +1,41 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {cancelSignOn = id; donate = id; signOn = id; signUp = id; }; 
+            CLASS = CSignOn; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                cancelButton = NSButton; 
+                donateButton = NSButton; 
+                generalBrowWindow = NSWindow; 
+                generalWebView = WebView; 
+                homeWindow = NSWindow; 
+                pWord = NSTextField; 
+                signOnButton = NSButton; 
+                signOnCircle = NSProgressIndicator; 
+                signUpButton = NSButton; 
+                uName = NSComboBox; 
+                welcomeWindow = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = HomeWindow; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {homeWeb = WebView; }; 
+            SUPERCLASS = NSWindow; 
+        }, 
+        {
+            ACTIONS = {saveNotes = id; }; 
+            CLASS = NotePad; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {textView = NSTextView; }; 
+            SUPERCLASS = NSWindow; 
+        }, 
+        {CLASS = SignOn; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {CLASS = Toolbar; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {CLASS = ToolbarView; LANGUAGE = ObjC; SUPERCLASS = NSView; }
+    ); 
+    IBVersion = 1; 
+}
